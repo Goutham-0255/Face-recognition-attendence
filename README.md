@@ -68,5 +68,6 @@ This project is licensed under the [MIT License](LICENSE).
 Contributions are welcome! Please submit a pull request or open an issue if you have suggestions or improvements.
 
 ## Contact
-For questions or issues, please contact gouthamf01@gmail.com.
+For questions or issues, please contact.
 ```
+ gouthamf01@gmail.com
