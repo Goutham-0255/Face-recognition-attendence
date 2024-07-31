@@ -23,9 +23,8 @@ This Python project implements a facial recognition-based attendance system usin
 ## Installation
 
 1. **Clone the Repository**
-   ```bash
-   (https://github.com/Goutham-0255/Face-recognition-attendence.git)
-   ```
+   https://github.com/Goutham-0255/Face-recognition-attendence.git
+   
 
 2. **Navigate to the Project Directory**
    ```bash
