@@ -4,10 +4,10 @@ import numpy as np
 import csv
 from datetime import datetime
 
-# Initialize webcam
+# start camera
 video_capture = cv2.VideoCapture(0)
 
-# Load known faces
+# Load faces
 try:
     dheeraj_image = face_recognition.load_image_file(r"C:\STUFF\PROJECT\mini project\photos\dheeraj.jpg")
     dheeraj_encoding = face_recognition.face_encodings(dheeraj_image)[0]
@@ -27,14 +27,14 @@ except Exception as e:
     print(f"Error loading images: {e}")
     exit()
 
-# List of expected students
+# List of students
 students = known_face_names.copy()
 
-# Get the current date and time
+#  current date and time
 now = datetime.now()
 current_date = now.strftime("%Y-%m-%d")
 
-# Open CSV file to log attendance
+# Open CSV file to store attendance
 with open(f"{current_date}.csv", "w+", newline="") as f:
     lnwriter = csv.writer(f)
 
